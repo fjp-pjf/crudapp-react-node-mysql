@@ -11,6 +11,7 @@ function App() {
       lastname: "",
       email:  ""
   });
+  
   const [tabledata, setTableData] = useState([]);
 
 
@@ -24,7 +25,7 @@ function App() {
 
     }
     getAllData();
-    
+
   }, []);
 
 
